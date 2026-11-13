@@ -1,0 +1,17 @@
+{
+  "document_id": "WO-HIST-001",
+  "document_type": "historical_work_order",
+  "document_title": "Replace drive-end bearing on feed pump",
+  "asset_type": "pump",
+  "failure_mode": "BEARING_WEAR",
+  "problem_description": "Vibration rose from 2.6 to 5.8 mm/s over 12 days with bearing temperature +9 degC.",
+  "actions_taken": [
+    "Isolate and lock out pump",
+    "Replace drive-end bearing",
+    "Re-grease and realign"
+  ],
+  "parts_used": [
+    "SP-BRG-6309"
+  ],
+  "outcome": "Vibration returned to 2.5 mm/s after repair."
+}

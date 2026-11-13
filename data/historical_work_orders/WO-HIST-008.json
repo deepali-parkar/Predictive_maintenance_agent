@@ -1,0 +1,17 @@
+{
+  "document_id": "WO-HIST-008",
+  "document_type": "historical_work_order",
+  "document_title": "Valve plate replacement on air compressor",
+  "asset_type": "compressor",
+  "failure_mode": "PRESSURE_LOSS",
+  "problem_description": "Longer loaded cycles and low discharge pressure.",
+  "actions_taken": [
+    "Replace valve plates",
+    "Replace intake filter"
+  ],
+  "parts_used": [
+    "SP-VLV-PLT",
+    "SP-FLT-OIL"
+  ],
+  "outcome": "Build-up time restored."
+}

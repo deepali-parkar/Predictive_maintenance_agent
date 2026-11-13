@@ -1,0 +1,21 @@
+asset_id,asset_name,asset_type,manufacturer,location,criticality,installation_date,operating_status
+PMP-101,Feed Water Pump 1,pump,Grundfos-like,Boiler House,HIGH,2022-12-12,RUNNING
+PMP-102,Feed Water Pump 2,pump,Siemens-like,Utilities Bay,HIGH,2019-06-11,RUNNING
+PMP-103,Cooling Circulation Pump A,pump,Atlas-like,Process Hall A,MEDIUM,2023-09-11,RUNNING
+PMP-104,Cooling Circulation Pump B,pump,ABB-like,Process Hall B,MEDIUM,2020-01-06,RUNNING
+PMP-105,Transfer Pump 1,pump,Flowserve-like,Compressor Room,LOW,2021-07-18,RUNNING
+PMP-106,Boiler Feed Pump,pump,Grundfos-like,Boiler House,CRITICAL,2018-01-16,RUNNING
+PMP-107,Process Pump 7,pump,Siemens-like,Utilities Bay,MEDIUM,2021-01-09,RUNNING
+PMP-108,Process Pump 8,pump,Atlas-like,Process Hall A,LOW,2024-08-04,RUNNING
+MTR-201,Main Drive Motor 1,motor,ABB-like,Process Hall B,HIGH,2023-05-14,RUNNING
+MTR-202,Main Drive Motor 2,motor,Flowserve-like,Compressor Room,HIGH,2020-06-18,RUNNING
+MTR-203,Conveyor Motor 3,motor,Grundfos-like,Boiler House,MEDIUM,2024-05-03,RUNNING
+MTR-204,Conveyor Motor 4,motor,Siemens-like,Utilities Bay,LOW,2022-01-17,RUNNING
+MTR-205,Mixer Motor 5,motor,Atlas-like,Process Hall A,MEDIUM,2023-06-30,RUNNING
+MTR-206,Fan Motor 6,motor,ABB-like,Process Hall B,LOW,2018-08-03,RUNNING
+MTR-207,Crusher Motor 7,motor,Flowserve-like,Compressor Room,CRITICAL,2019-11-08,RUNNING
+CMP-301,Air Compressor 1,compressor,Grundfos-like,Boiler House,HIGH,2018-07-02,RUNNING
+CMP-302,Air Compressor 2,compressor,Siemens-like,Utilities Bay,HIGH,2022-05-12,RUNNING
+CMP-303,Instrument Air Compressor,compressor,Atlas-like,Process Hall A,MEDIUM,2024-08-17,RUNNING
+CMP-304,Process Gas Compressor 4,compressor,ABB-like,Process Hall B,MEDIUM,2019-12-13,RUNNING
+CMP-305,Process Gas Compressor 5,compressor,Flowserve-like,Compressor Room,CRITICAL,2018-03-17,RUNNING

@@ -1,0 +1,28 @@
+{
+  "seed": 20261109,
+  "heldout_assets": [
+    "PMP-108",
+    "PMP-107",
+    "MTR-207",
+    "CMP-302"
+  ],
+  "dev_assets": [
+    "PMP-101",
+    "PMP-102",
+    "PMP-103",
+    "PMP-104",
+    "PMP-105",
+    "PMP-106",
+    "MTR-201",
+    "MTR-202",
+    "MTR-203",
+    "MTR-204",
+    "MTR-205",
+    "MTR-206",
+    "CMP-301",
+    "CMP-303",
+    "CMP-304",
+    "CMP-305"
+  ],
+  "note": "Held-out assets must NOT be used to tune detection thresholds; used only for final reporting."
+}

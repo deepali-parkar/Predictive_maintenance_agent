@@ -1,0 +1,14 @@
+paths:
+  db: data/maintenance.db
+  chroma: data/chroma
+  synthetic: data/synthetic
+  manuals: data/manuals
+  historical_work_orders: data/historical_work_orders
+mcp:
+  transport: inprocess        # inprocess | stdio  (both expose the same tool registry)
+rag:
+  collection: maintenance_knowledge
+  top_k: 5
+  min_similarity: 0.15        # safety floor only; relevance is enforced mainly by metadata filters. Tune per embedding model.
+dashboard:
+  default_days: 14

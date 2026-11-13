@@ -1,0 +1,14 @@
+pandas>=2.2
+numpy>=1.26
+pydantic>=2.6
+PyYAML>=6.0
+python-dotenv>=1.0
+streamlit>=1.36
+plotly>=5.22
+chromadb>=0.5
+openai>=1.40            # AzureOpenAI client -> Azure AI Foundry deployments
+langgraph>=0.2
+langchain-core>=0.3
+mcp>=1.2                # official MCP Python SDK (FastMCP + client)
+scikit-learn>=1.4       # optional: metrics only
+pytest>=8.0

@@ -1,0 +1,19 @@
+version: "risk-1.0"
+weights:            # sum to 1.0; each component is normalised to 0..1
+  severity: 0.30
+  trend: 0.15
+  threshold_breach: 0.20
+  multi_sensor: 0.15
+  persistence: 0.10
+  service_age: 0.10
+persistence_saturation_hours: 72
+service_saturation_days: 365
+breach_values: {NONE: 0.0, WARNING: 0.6, CRITICAL: 1.0}
+multi_sensor_values: {1: 0.0, 2: 0.5, 3: 1.0}       # >=3 sensors => 1.0
+criticality_factor: {LOW: 0.90, MEDIUM: 1.00, HIGH: 1.10, CRITICAL: 1.20}
+isolated_anomaly_cap: 30        # score cap when only isolated (non-sustained) anomalies
+no_anomaly_service_weight: 0.3  # healthy assets: only a small service-age contribution
+level_thresholds: {medium: 35, high: 70}
+confirmed_fault_floor: 80
+monitoring_urgency: {LOW: "routine monitoring", MEDIUM: "review within 72 hours", HIGH: "review within 24 hours"}
+predicted_degradation_max_breach: WARNING   # sustained + rising but below CRITICAL => PREDICTED_DEGRADATION

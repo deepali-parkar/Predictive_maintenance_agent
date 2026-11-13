@@ -1,0 +1,18 @@
+{
+  "document_id": "WO-HIST-006",
+  "document_type": "historical_work_order",
+  "document_title": "Motor overheating with rising current",
+  "asset_type": "motor",
+  "failure_mode": "WINDING_DEGRADATION",
+  "problem_description": "Frame temperature +25% and current +20%; insulation resistance low.",
+  "actions_taken": [
+    "Megger test",
+    "Replace cooling fan",
+    "Plan rewind"
+  ],
+  "parts_used": [
+    "SP-FAN-MTR",
+    "SP-WND-KIT"
+  ],
+  "outcome": "Motor rewound; temperature normal."
+}

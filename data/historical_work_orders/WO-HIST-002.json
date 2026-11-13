@@ -1,0 +1,17 @@
+{
+  "document_id": "WO-HIST-002",
+  "document_type": "historical_work_order",
+  "document_title": "Bearing replacement after spectrum alarm",
+  "asset_type": "pump",
+  "failure_mode": "BEARING_WEAR",
+  "problem_description": "Spectrum showed outer-race defect frequency; housing warm to touch.",
+  "actions_taken": [
+    "Replace both bearings",
+    "Check shaft runout"
+  ],
+  "parts_used": [
+    "SP-BRG-6309",
+    "SP-GRS-EP2"
+  ],
+  "outcome": "Normal operation restored."
+}

@@ -1,0 +1,14 @@
+{
+  "document_id": "WO-HIST-007",
+  "document_type": "historical_work_order",
+  "document_title": "Motor current high due to dragging conveyor",
+  "asset_type": "motor",
+  "failure_mode": "ELECTRICAL_OVERLOAD",
+  "problem_description": "Current +25% with no temperature rise.",
+  "actions_taken": [
+    "Free conveyor roller",
+    "Check voltage balance"
+  ],
+  "parts_used": [],
+  "outcome": "Current normalised."
+}

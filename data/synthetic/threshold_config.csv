@@ -1,0 +1,13 @@
+asset_type,sensor,warn_high,crit_high,sat_dev_pct,slope_ref_pct_per_day,unit,warn_low,crit_low
+pump,vibration,4.0,6.0,150,6,mm/s,,
+pump,temperature,70.0,85.0,50,3,degC,,
+pump,pressure,7.0,8.0,35,3,bar,5.0,4.0
+pump,current,22.0,26.0,40,3,A,,
+motor,vibration,3.5,5.5,150,6,mm/s,,
+motor,temperature,80.0,95.0,50,3,degC,,
+motor,pressure,2.6,3.0,35,3,bar,1.5,1.2
+motor,current,36.0,42.0,40,3,A,,
+compressor,vibration,5.0,7.5,150,6,mm/s,,
+compressor,temperature,95.0,110.0,50,3,degC,,
+compressor,pressure,9.5,10.5,35,3,bar,6.5,5.5
+compressor,current,54.0,62.0,40,3,A,,

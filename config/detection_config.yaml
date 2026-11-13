@@ -1,0 +1,38 @@
+version: "det-1.0"
+analysis:
+  resample: "1h"
+  baseline_hours: 168        # initial reference period assumed healthy (per asset)
+  min_baseline_points: 48
+  smoothing_hours: 12        # rolling mean / std window
+  slope_window_hours: 48
+  persistence_hours: 6       # consecutive flagged hours => sustained abnormality
+  z_threshold: 3.0
+  spike_z_threshold: 6.0     # single-point spike => isolated anomaly
+  min_deviation_pct: 8.0
+  recent_window_hours: 24    # an anomaly window is "active" if it ends within this of as_of
+sensor_defaults:             # for sensors without explicit thresholds (extra sensors)
+  saturation_dev_pct: 60.0
+  slope_ref_pct_per_day: 5.0
+# Absolute thresholds per asset_type -> sensor.  warn/crit for high side and low side.
+thresholds:
+  pump:
+    vibration:   {unit: "mm/s", warn_high: 4.0, crit_high: 6.0, sat_dev_pct: 150, slope_ref_pct_per_day: 6}
+    temperature: {unit: "degC", warn_high: 70, crit_high: 85, sat_dev_pct: 50, slope_ref_pct_per_day: 3}
+    pressure:    {unit: "bar", warn_low: 5.0, crit_low: 4.0, warn_high: 7.0, crit_high: 8.0, sat_dev_pct: 35, slope_ref_pct_per_day: 3}
+    current:     {unit: "A", warn_high: 22, crit_high: 26, sat_dev_pct: 40, slope_ref_pct_per_day: 3}
+  motor:
+    vibration:   {unit: "mm/s", warn_high: 3.5, crit_high: 5.5, sat_dev_pct: 150, slope_ref_pct_per_day: 6}
+    temperature: {unit: "degC", warn_high: 80, crit_high: 95, sat_dev_pct: 50, slope_ref_pct_per_day: 3}
+    pressure:    {unit: "bar", warn_low: 1.5, crit_low: 1.2, warn_high: 2.6, crit_high: 3.0, sat_dev_pct: 35, slope_ref_pct_per_day: 3}
+    current:     {unit: "A", warn_high: 36, crit_high: 42, sat_dev_pct: 40, slope_ref_pct_per_day: 3}
+  compressor:
+    vibration:   {unit: "mm/s", warn_high: 5.0, crit_high: 7.5, sat_dev_pct: 150, slope_ref_pct_per_day: 6}
+    temperature: {unit: "degC", warn_high: 95, crit_high: 110, sat_dev_pct: 50, slope_ref_pct_per_day: 3}
+    pressure:    {unit: "bar", warn_low: 6.5, crit_low: 5.5, warn_high: 9.5, crit_high: 10.5, sat_dev_pct: 35, slope_ref_pct_per_day: 3}
+    current:     {unit: "A", warn_high: 54, crit_high: 62, sat_dev_pct: 40, slope_ref_pct_per_day: 3}
+# failure-mode hints used only for RAG retrieval filtering (NOT a diagnosis)
+failure_mode_hints:
+  vibration: [BEARING_WEAR, MISALIGNMENT_IMBALANCE]
+  temperature: [OVERHEATING, WINDING_DEGRADATION]
+  pressure: [PRESSURE_LOSS]
+  current: [ELECTRICAL_OVERLOAD, WINDING_DEGRADATION]

@@ -1,0 +1,14 @@
+{
+  "document_id": "WO-HIST-009",
+  "document_type": "historical_work_order",
+  "document_title": "Aftercooler fouling on gas compressor",
+  "asset_type": "compressor",
+  "failure_mode": "OVERHEATING",
+  "problem_description": "Discharge temperature +20% over baseline.",
+  "actions_taken": [
+    "Clean aftercooler",
+    "Verify cooling water flow"
+  ],
+  "parts_used": [],
+  "outcome": "Temperature back to normal."
+}

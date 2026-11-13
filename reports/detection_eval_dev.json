@@ -1,0 +1,362 @@
+{
+  "assets": [
+    "PMP-101",
+    "PMP-102",
+    "PMP-103",
+    "PMP-104",
+    "PMP-105",
+    "PMP-106",
+    "MTR-201",
+    "MTR-202",
+    "MTR-203",
+    "MTR-204",
+    "MTR-205",
+    "MTR-206",
+    "CMP-301",
+    "CMP-303",
+    "CMP-304",
+    "CMP-305"
+  ],
+  "point_level": {
+    "tp": 2851,
+    "fp": 120,
+    "fn": 265,
+    "tn": 42748,
+    "precision": 0.9596,
+    "recall": 0.915,
+    "f1": 0.9368,
+    "false_positive_rate": 0.0028,
+    "false_negative_rate": 0.085
+  },
+  "by_asset": {
+    "CMP-301": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "CMP-303": {
+      "tp": 210,
+      "fp": 0,
+      "fn": 55,
+      "tn": 2615,
+      "precision": 1.0,
+      "recall": 0.7925,
+      "f1": 0.8842,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.2075
+    },
+    "CMP-304": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "CMP-305": {
+      "tp": 601,
+      "fp": 45,
+      "fn": 37,
+      "tn": 2197,
+      "precision": 0.9303,
+      "recall": 0.942,
+      "f1": 0.9361,
+      "false_positive_rate": 0.0201,
+      "false_negative_rate": 0.058
+    },
+    "MTR-201": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "MTR-202": {
+      "tp": 265,
+      "fp": 19,
+      "fn": 0,
+      "tn": 2596,
+      "precision": 0.9331,
+      "recall": 1.0,
+      "f1": 0.9654,
+      "false_positive_rate": 0.0073,
+      "false_negative_rate": 0.0
+    },
+    "MTR-203": {
+      "tp": 511,
+      "fp": 0,
+      "fn": 91,
+      "tn": 2278,
+      "precision": 1.0,
+      "recall": 0.8488,
+      "f1": 0.9182,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.1512
+    },
+    "MTR-204": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "MTR-205": {
+      "tp": 139,
+      "fp": 0,
+      "fn": 38,
+      "tn": 2703,
+      "precision": 1.0,
+      "recall": 0.7853,
+      "f1": 0.8797,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.2147
+    },
+    "MTR-206": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "PMP-101": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "PMP-102": {
+      "tp": 245,
+      "fp": 0,
+      "fn": 3,
+      "tn": 2632,
+      "precision": 1.0,
+      "recall": 0.9879,
+      "f1": 0.9939,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0121
+    },
+    "PMP-103": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "PMP-104": {
+      "tp": 251,
+      "fp": 0,
+      "fn": 32,
+      "tn": 2597,
+      "precision": 1.0,
+      "recall": 0.8869,
+      "f1": 0.9401,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.1131
+    },
+    "PMP-105": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 2868,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "PMP-106": {
+      "tp": 629,
+      "fp": 56,
+      "fn": 9,
+      "tn": 2186,
+      "precision": 0.9182,
+      "recall": 0.9859,
+      "f1": 0.9509,
+      "false_positive_rate": 0.025,
+      "false_negative_rate": 0.0141
+    }
+  },
+  "by_sensor": {
+    "current": {
+      "tp": 579,
+      "fp": 0,
+      "fn": 164,
+      "tn": 10753,
+      "precision": 1.0,
+      "recall": 0.7793,
+      "f1": 0.8759,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.2207
+    },
+    "pressure": {
+      "tp": 251,
+      "fp": 0,
+      "fn": 32,
+      "tn": 11213,
+      "precision": 1.0,
+      "recall": 0.8869,
+      "f1": 0.9401,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.1131
+    },
+    "temperature": {
+      "tp": 873,
+      "fp": 7,
+      "fn": 66,
+      "tn": 10550,
+      "precision": 0.992,
+      "recall": 0.9297,
+      "f1": 0.9599,
+      "false_positive_rate": 0.0007,
+      "false_negative_rate": 0.0703
+    },
+    "vibration": {
+      "tp": 1148,
+      "fp": 113,
+      "fn": 3,
+      "tn": 10232,
+      "precision": 0.9104,
+      "recall": 0.9974,
+      "f1": 0.9519,
+      "false_positive_rate": 0.0109,
+      "false_negative_rate": 0.0026
+    }
+  },
+  "events": [
+    {
+      "asset_id": "PMP-101",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "PMP-102",
+      "detected": true,
+      "detection_time": "2026-10-30 00:00:00",
+      "delay_vs_label_onset_h": 9.0,
+      "lead_time_before_projected_failure_h": 440.0
+    },
+    {
+      "asset_id": "PMP-103",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "PMP-104",
+      "detected": true,
+      "detection_time": "2026-10-29 17:00:00",
+      "delay_vs_label_onset_h": 37.0,
+      "lead_time_before_projected_failure_h": 476.0
+    },
+    {
+      "asset_id": "PMP-105",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "PMP-106",
+      "detected": true,
+      "detection_time": "2026-10-24 21:00:00",
+      "delay_vs_label_onset_h": -43.0,
+      "lead_time_before_projected_failure_h": 621.0
+    },
+    {
+      "asset_id": "MTR-201",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "MTR-202",
+      "detected": true,
+      "detection_time": "2026-10-28 09:00:00",
+      "delay_vs_label_onset_h": -13.0,
+      "lead_time_before_projected_failure_h": 494.0
+    },
+    {
+      "asset_id": "MTR-203",
+      "detected": true,
+      "detection_time": "2026-10-28 07:00:00",
+      "delay_vs_label_onset_h": 21.0,
+      "lead_time_before_projected_failure_h": 524.0
+    },
+    {
+      "asset_id": "MTR-204",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "MTR-205",
+      "detected": true,
+      "detection_time": "2026-11-03 10:00:00",
+      "delay_vs_label_onset_h": 44.0,
+      "lead_time_before_projected_failure_h": 277.0
+    },
+    {
+      "asset_id": "MTR-206",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "CMP-301",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "CMP-303",
+      "detected": true,
+      "detection_time": "2026-10-30 15:00:00",
+      "delay_vs_label_onset_h": 41.0,
+      "lead_time_before_projected_failure_h": 440.0
+    },
+    {
+      "asset_id": "CMP-304",
+      "detected": false,
+      "healthy_asset": true
+    },
+    {
+      "asset_id": "CMP-305",
+      "detected": true,
+      "detection_time": "2026-10-25 01:00:00",
+      "delay_vs_label_onset_h": -39.0,
+      "lead_time_before_projected_failure_h": 617.0
+    }
+  ],
+  "event_level": {
+    "degrading_assets": 8,
+    "detected": 8,
+    "event_recall": 1.0,
+    "healthy_assets": 8,
+    "healthy_false_alarms": 0,
+    "mean_lead_time_h": 486.1,
+    "mean_delay_vs_label_onset_h": 7.1
+  }
+}

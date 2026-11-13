@@ -1,0 +1,14 @@
+{
+  "document_id": "WO-HIST-004",
+  "document_type": "historical_work_order",
+  "document_title": "Cooling flush line blocked on process pump",
+  "asset_type": "pump",
+  "failure_mode": "OVERHEATING",
+  "problem_description": "Casing temperature climbed above 75 degC at normal load.",
+  "actions_taken": [
+    "Clear flush line",
+    "Verify minimum flow"
+  ],
+  "parts_used": [],
+  "outcome": "Temperature normalised at 56 degC."
+}

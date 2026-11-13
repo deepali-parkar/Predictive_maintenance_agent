@@ -1,0 +1,39 @@
+asset_id_aliases: [asset_id, equipment_id, machine_id, asset, equipment, device_id, tag]
+timestamp_aliases: [timestamp, datetime, date_time, time, ts, recorded_at, date]
+long_format:
+  sensor_aliases: [sensor_name, sensor, metric, measurement, parameter]
+  value_aliases: [value, reading, sensor_value, val]
+  unit_aliases: [unit, units, uom]
+sensors:
+  vibration:   {canonical_unit: "mm/s", patterns: ["^vib", "vibration"]}
+  temperature: {canonical_unit: "degC", patterns: ["^temp", "temperature"]}
+  pressure:    {canonical_unit: "bar",  patterns: ["^press", "pressure"]}
+  current:     {canonical_unit: "A",    patterns: ["^curr", "^amp", "current"]}
+# unit tokens recognised in column names / unit columns (token -> canonical unit label)
+unit_tokens:
+  mm_s: "mm/s"
+  mms: "mm/s"
+  in_s: "in/s"
+  ips: "in/s"
+  c: "degC"
+  degc: "degC"
+  f: "degF"
+  degf: "degF"
+  k: "K"
+  bar: "bar"
+  psi: "psi"
+  kpa: "kPa"
+  mpa: "MPa"
+  a: "A"
+  amp: "A"
+  ma: "mA"
+  amps: "A"
+# conversion factors:  value_canonical = value * mul + add
+conversions:
+  "in/s->mm/s": {mul: 25.4, add: 0}
+  "degF->degC": {mul: 0.5555555556, add: -17.7777777778}
+  "K->degC":    {mul: 1.0, add: -273.15}
+  "psi->bar":   {mul: 0.0689476, add: 0}
+  "kPa->bar":   {mul: 0.01, add: 0}
+  "MPa->bar":   {mul: 10.0, add: 0}
+  "mA->A":      {mul: 0.001, add: 0}

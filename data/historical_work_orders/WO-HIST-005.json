@@ -1,0 +1,16 @@
+{
+  "document_id": "WO-HIST-005",
+  "document_type": "historical_work_order",
+  "document_title": "Realign motor and replace coupling insert",
+  "asset_type": "motor",
+  "failure_mode": "MISALIGNMENT_IMBALANCE",
+  "problem_description": "Vibration at 2x speed; coupling insert cracked.",
+  "actions_taken": [
+    "Laser align",
+    "Replace coupling insert"
+  ],
+  "parts_used": [
+    "SP-CPL-ELA"
+  ],
+  "outcome": "Vibration dropped by 60%."
+}

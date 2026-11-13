@@ -1,0 +1,16 @@
+{
+  "document_id": "WO-HIST-003",
+  "document_type": "historical_work_order",
+  "document_title": "Seal replacement for falling discharge pressure",
+  "asset_type": "pump",
+  "failure_mode": "PRESSURE_LOSS",
+  "problem_description": "Discharge pressure fell 20% with seal weep observed.",
+  "actions_taken": [
+    "Replace mechanical seal",
+    "Clean suction strainer"
+  ],
+  "parts_used": [
+    "SP-SEAL-MS40"
+  ],
+  "outcome": "Pressure back to set point."
+}

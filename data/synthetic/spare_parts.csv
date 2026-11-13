@@ -1,0 +1,13 @@
+part_id,part_name,compatible_asset_types,quantity_available,reorder_level,unit_cost,description
+SP-BRG-6309,Deep groove ball bearing 6309,pump;motor,12,4,38.5,Shaft bearing for pumps and motors
+SP-BRG-7312,Angular contact bearing 7312,compressor,6,2,92.0,Compressor bearing set
+SP-SEAL-MS40,Mechanical seal 40mm,pump,5,2,145.0,Pump mechanical seal
+SP-IMP-210,Impeller 210mm,pump,2,1,420.0,Replacement impeller
+SP-CPL-ELA,Elastomer coupling insert,pump;motor;compressor,10,3,24.0,Flexible coupling element
+SP-FAN-MTR,Motor cooling fan,motor,3,1,55.0,TEFC motor cooling fan
+SP-WND-KIT,Winding repair kit,motor,1,1,640.0,Stator rewind consumables
+SP-VLV-PLT,Compressor valve plate,compressor,4,2,210.0,Suction/discharge valve plate
+SP-FLT-OIL,Oil filter cartridge,compressor;pump,15,5,18.0,Lube oil filter
+SP-GRS-EP2,EP2 bearing grease 400g,all,30,10,9.5,Lithium complex grease
+SP-TC-K,Type K thermocouple,all,8,3,14.0,Temperature probe
+SP-SNS-VIB,Vibration sensor (accelerometer),all,0,2,185.0,Out of stock - reorder

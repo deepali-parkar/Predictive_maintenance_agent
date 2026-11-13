@@ -5,3 +5,6 @@ __pycache__/
 data/maintenance.db
 data/chroma/
 .venv/
+
+venv/
+.venv/
